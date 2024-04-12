@@ -1,0 +1,37 @@
+8986e0f HEAD@{0}: checkout: moving from bug1 to master
+f5241ea HEAD@{1}: checkout: moving from bug2 to bug1
+8986e0f HEAD@{2}: checkout: moving from master to bug2
+8986e0f HEAD@{3}: merge bug2: Fast-forward
+f5241ea HEAD@{4}: checkout: moving from bug2 to master
+8986e0f HEAD@{5}: rebase (finish): returning to refs/heads/bug2
+8986e0f HEAD@{6}: commit: rebase
+f5241ea HEAD@{7}: rebase (start): checkout master
+52110cc HEAD@{8}: checkout: moving from master to bug2
+f5241ea HEAD@{9}: merge bug1: Fast-forward
+e9ff7ce HEAD@{10}: checkout: moving from bug2 to master
+52110cc HEAD@{11}: commit: Call method makeBigStringFrom in main class
+bab21c7 HEAD@{12}: checkout: moving from bug1 to bug2
+f5241ea HEAD@{13}: commit: Call method filterOddLengthStrings
+bab21c7 HEAD@{14}: checkout: moving from bug2 to bug1
+bab21c7 HEAD@{15}: checkout: moving from bug1 to bug2
+bab21c7 HEAD@{16}: checkout: moving from master to bug1
+e9ff7ce HEAD@{17}: checkout: moving from bug1 to master
+bab21c7 HEAD@{18}: checkout: moving from master to bug1
+e9ff7ce HEAD@{19}: checkout: moving from e9ff7ce6c8364f9f3ea5eca74b315b221f0b01cb to master
+e9ff7ce HEAD@{20}: checkout: moving from master to bug1
+e9ff7ce HEAD@{21}: checkout: moving from e9ff7ce6c8364f9f3ea5eca74b315b221f0b01cb to master
+e9ff7ce HEAD@{22}: checkout: moving from bug1 to bug2
+e9ff7ce HEAD@{23}: checkout: moving from bug2 to bug1
+e9ff7ce HEAD@{24}: checkout: moving from master to bug2
+e9ff7ce HEAD@{25}: checkout: moving from bug1 to master
+e9ff7ce HEAD@{26}: checkout: moving from master to bug1
+e9ff7ce HEAD@{27}: checkout: moving from bug1 to master
+e9ff7ce HEAD@{28}: checkout: moving from master to bug1
+e9ff7ce HEAD@{29}: checkout: moving from bug2 to master
+61bafe7 HEAD@{30}: commit: Fix wrong condition
+bab21c7 HEAD@{31}: checkout: moving from bug1 to bug2
+bab21c7 HEAD@{32}: commit: Fix wrong condition
+e9ff7ce HEAD@{33}: checkout: moving from master to bug1
+e9ff7ce HEAD@{34}: commit: Add starter code
+3021bbc HEAD@{35}: commit: Initial commit
+e64e9ce HEAD@{36}: commit (initial): Initial commit

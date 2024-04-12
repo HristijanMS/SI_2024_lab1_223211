@@ -1,0 +1,40 @@
+4. mkdir SI_2024_lab1_223211
+cd SI_2024_lab1_223211
+git init
+5.got remote add origin https://github.com/HristijanMS/SI_2024_lab1_223211.git
+6.
+echo "# SI_2024_lab1_223211" >> README.md
+git add README.md
+git commit -m"Initial commit"
+7.git add SILab1Main.java
+git add SILab1_1.java
+git add SILab1_2.java
+git commit -m"Add starter code"
+8.git push origin master
+9.git branch 
+git checkout -b bug1
+git checkout master
+git checkout -b bug2
+10.git checkout bug1
+11.git commit -m"Fix wrong condition"
+12.git checkout bug2
+13.git commit -m"Fix wrong condition"
+14.git checkout bug1
+15.git commit -m"Call method filterOddLengthStrings"
+16.git checkout bug2
+17.git commit -m"Call method makeBigStringFrom in main class."
+18.git push origin bug1 bug2
+19.git checkout master
+20.git merge bug1
+21.git push origin master
+22.git checkout bug2
+23.git rebase master
+Имаше мал проблем и требаше да избришам HEAD
+24.git checkout master
+25. git merge bug2
+26/27 git push origin master bug1 bug2 --force
+28.git relog > logs.txt
+git add 223211.txt
+git add logs.txt
+git commit -m"Final commit"
+29.git push origin master 
